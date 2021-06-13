@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a769f634f4181919faeb04bef0f29657",
+    "packages": [
+        {
+            "name": "sevengps/payunit",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/sevencommonfactor/payunit-php-sdk.git",
+                "reference": "b25fec3eca7bb860f9eb6cd069e03c2c3c0b892f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/sevencommonfactor%2Fpayunit-php-sdk/repository/archive.zip?sha=b25fec3eca7bb860f9eb6cd069e03c2c3c0b892f",
+                "reference": "b25fec3eca7bb860f9eb6cd069e03c2c3c0b892f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenGps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Payunit",
+                    "email": "info@payunit.net"
+                }
+            ],
+            "description": "Payunit PHP SDK for the online agreggator",
+            "homepage": "http://payunit.net/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "psr-18",
+                "psr-7",
+                "rest",
+                "web service"
+            ],
+            "time": "2021-04-20T09:51:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
