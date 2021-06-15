@@ -49,23 +49,25 @@
                         <div class="box-root box-divider--light-all-2 animationRightLeft tans3s" style="flex-grow: 1;">
                         </div>
                     </div>
-                </div>
+                </div>                                                              
             </div>
-            <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+            <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 90; margin-top:2rem;">
                 <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
-                    <h1><a href="http://blogs.stackfindover.com/" rel="dofollow">PHP SDK PayUnit</a></h1>
+                    <h1>
+                        <a href="#" rel="dofollow">PHP SDK PayUnit</a>
+                </h1>
                 </div>
                 <div class="formbg-outer">
                     <div class="formbg">
                         <div class="formbg-inner padding-horizontal--48">
-                            <span class="padding-bottom--15">THE CHALLENGE OF SAFETY</span>
+                            <span class="middle_tittle padding-bottom--15">THE CHALLENGE OF SAFETY</span>
                             <form action="./submit.php" method="POST" id="stripe-login">
                                 
                                 <div class="field padding-bottom--24">
                                     <div class="grid--50-50">
                                             <label for="password">Make a Donation</label>
                                     </div>
-                                    <input type="number" name="amount" placeholder="FCFA">
+                                    <input type="number" name="amount" placeholder="FCFA" min=100>
                                 </div>
                                 <div class="field padding-bottom--24">
                                     <input type="submit" name="submit" value="Donate Now">

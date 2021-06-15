@@ -17,7 +17,7 @@ h1 {
 }
 
 a {
-    color: #5469d4;
+    color: #3EA49A;
     text-decoration: unset;
 }
 
@@ -83,7 +83,7 @@ a {
 }
 
 .box-background--blue {
-    background-color: #5469d4;
+    background-color: #3EA49A;
 }
 
 .box-background--white {
@@ -95,7 +95,7 @@ a {
 }
 
 .box-background--gray100 {
-    background-color: #e3e8ee;
+    background-color: #EC8629;
 }
 
 .box-background--cyan200 {
@@ -151,7 +151,9 @@ span {
 label {
     margin-bottom: 10px;
 }
-
+.middle_tittle{
+    text-align: center;
+}
 .reset-pass a,
 label {
     font-size: 14px;
@@ -190,17 +192,27 @@ label {
 }
 
 input[type="submit"] {
-    background-color: rgb(84, 105, 212);
+    background-color: #3EA49A;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
         rgba(0, 0, 0, 0) 0px 0px 0px 0px,
         rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,
-        rgb(84, 105, 212) 0px 0px 0px 1px,
+        #3EA49A 0px 0px 0px 1px,
         rgba(0, 0, 0, 0) 0px 0px 0px 0px,
         rgba(0, 0, 0, 0) 0px 0px 0px 0px,
         rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
+}
+input[type="submit"]:hover {
+    transition: 0.4s;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,    rgba(0, 0, 0, 0) 0px 0px 0px 0px,    rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,    #EC8629 0px 0px 0px 1px,    rgba(0, 0, 0, 0) 0px 0px 0px 0px,    rgba(0, 0, 0, 0) 0px 0px 0px 0px,    rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    background-color: #EC8629;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
 
 .field-checkbox input {
@@ -235,19 +247,22 @@ a.ssolink {
 }
 
 .animationRightLeft {
-    animation: animationRightLeft 2s ease-in-out infinite;
+    animation: animationRightLeft 3s ease-in-out infinite;
+    -webkit-animation: animationRightLeft 3s ease-in-out infinite;
 }
 
 .animationLeftRight {
-    animation: animationLeftRight 2s ease-in-out infinite;
+    animation: animationLeftRight 3s ease-in-out infinite;
 }
 
 .tans3s {
-    animation: animationLeftRight 3s ease-in-out infinite;
+    animation: animationLeftRight 2s ease-in-out infinite;
+    -webkit-animation: animationLeftRight 2s ease-in-out infinite;
 }
 
 .tans4s {
     animation: animationLeftRight 4s ease-in-out infinite;
+    -webkit-animation: animationLeftRight 4s ease-in-out infinite;
 }
 
 @keyframes animationLeftRight {
@@ -270,8 +285,12 @@ a.ssolink {
     }
 
     50% {
-        transform: translateX(-1000px);
-    }
+        transform: translateX(-1200px);
+        -webkit-transform: translateX(-1200px);
+        -moz-transform: translateX(-1200px);
+        -ms-transform: translateX(-1200px);
+        -o-transform: translateX(-1200px);
+}
 
     100% {
         transform: translateX(0px);
