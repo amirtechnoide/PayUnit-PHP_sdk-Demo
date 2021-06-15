@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sevengps/payunit": "^1.0",
+        "divineomega/dotenv-loader": "^2.0"
+    }
+}
