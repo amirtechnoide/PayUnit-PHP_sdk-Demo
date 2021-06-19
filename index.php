@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <title>PHP SDK PayUnit</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
 
 </head>
 
@@ -61,7 +61,7 @@
                     <div class="formbg">
                         <div class="formbg-inner padding-horizontal--48">
                             <span class="middle_tittle padding-bottom--15">THE CHALLENGE OF SAFETY</span>
-                            <form action="./submit.php" method="POST" id="stripe-login">
+                            <form action="./transaction.php" method="POST" id="stripe-login">
                                 
                                 <div class="field padding-bottom--24">
                                     <div class="grid--50-50">
