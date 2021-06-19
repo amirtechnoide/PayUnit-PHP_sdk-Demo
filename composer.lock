@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44c2998a901c55c2aed7fcf37a0a563c",
+    "content-hash": "1b361f4627edc3e1afa3f7dec83b6509",
     "packages": [
         {
             "name": "divineomega/dotenv-loader",
